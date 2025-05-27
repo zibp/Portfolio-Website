@@ -1,0 +1,41 @@
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 99vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/wp.jpg);
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 99vw;
+    flex-flow: row;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.features {
+    background-color: rgb(198, 255, 255);
+    border-style: dashed;
+    width: 42vw;
+    height: 30em;
+    margin: 5em 2em 2em 5em;
+    flex: 1;
+}
+
+.title > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: aliceblue;
+    text-shadow: 0 1px 1rem black;
+}
